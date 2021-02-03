@@ -1,0 +1,94 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{MD ABRAR NASIR}
+\tagline{}
+\personalinfo{%
+  \email{\href{mailto:recruit@abrarnasir.com}{recruit@abrarnasir.com}}
+  \phone{\href{tel:16473253373}{+1 647 325 3373}}
+  \homepage{\href{http://abrarnasir.com}{abrarnasir.com}}
+  \twitter{\href{https://twitter.com/MdAbrarNasir}{@mdabrarnasir}}
+  \location{Toronto, ON}
+
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[sidebar]{EXPERIENCES}
+
+\cvevent{Founder \& Principal Tutor}{Abrar Nasir Academy}{September 2020 -- Present}{Dhaka, Bangladesh}
+\begin{itemize}
+    \item Tutoring Economics, Mathematics and Physics to batches of A Level students
+    \item Providing academic and career counselling to high-school \\ seniors
+    \item Aiding students with college admission essay writing
+\end{itemize}
+
+\divider
+
+\cvevent{Director of Finance}{Bangladeshi Students’ Association at UofT} {May 2020 -- Present}{Toronto, ON, Canada}
+\begin{itemize}
+    \item Financial planning and budgeting for social events, projects and charities
+    \item Book-keeping and designing sponsorship and grant application packages
+\end{itemize}
+
+\divider
+
+\cvevent{Night Auditor}{Victoria University at the University of Toronto}{March 2020 -- August 2020}{Toronto, ON, Canada}
+\begin{itemize}
+    \item Audited revenue transactions to match system-payment trails
+    \item Produced banking slips and other relevant financial statements such as POS summary, daily financial recaps etc
+    \item Managed student accommodation database using StarRez
+\end{itemize}
+
+\divider
+
+\cvevent{Sales and Marketing Intern}{Spark International}{Dec 2018 -- August 2019}{Dhaka, Bangladesh}
+\begin{itemize}
+    \item Analyzed sales data to develop forecasts using Microsoft Excel and VBA
+    \item Proposed sales improvement strategies
+    \item Implemented SEO skills to drive traffic to company website
+\end{itemize}
+
+\cvsection{EDUCATION}
+\cvevent{Honors Bachelor of Science}{University of Toronto}{September 2019 -- June 2023}{}
+Major in Economics with a Focus in Data Analytics \\ Minors in Mathematics and Statistics
+
+\cvsection{SKILLS}
+
+\begin{itemize}
+    \item Python, R, VBA, SQL, Figma, HTML, CSS
+    \item Data analysis, financial modelling, optimisation, product design
+\end{itemize}
+
+\clearpage
+\nocite{*}
+
+\end{document}
